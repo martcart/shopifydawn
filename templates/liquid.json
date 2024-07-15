@@ -1,0 +1,27 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-404"
+      }
+    },
+    "order": [
+      "main"
+    ],
+
+    
+        "section":{
+            "main":{
+                "type":"liquid-ref",
+                "settings":{
+
+                }
+            },
+      
+            "order":["main"]
+        
+    
+    
+        }
+      
+      
+  }
