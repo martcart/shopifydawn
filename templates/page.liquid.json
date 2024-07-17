@@ -15,9 +15,57 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_k8RQzF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XpERkw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Object",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XpERkw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_kJWWDA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PirMzt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tag",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PirMzt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_k8RQzF",
+    "rich_text_kJWWDA"
   ]
 }
