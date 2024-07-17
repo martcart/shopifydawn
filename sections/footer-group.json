@@ -11,6 +11,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_hKEfax": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title=='liquid' %}\n Yes, the title is Liquid\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom_liquid_bNTGQ4": {
       "type": "custom-liquid",
       "settings": {
@@ -67,6 +76,7 @@
     }
   },
   "order": [
+    "custom_liquid_hKEfax",
     "custom_liquid_bNTGQ4",
     "footer"
   ]
