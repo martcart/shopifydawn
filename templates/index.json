@@ -244,7 +244,7 @@
     "custom_liquid_7Nm6PC": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.title == 'liquid'%}\n\n{% else'%}\n{% endif'%}",
+        "custom_liquid": "{% if page.title == 'liquid'%}\nThe page titke is liquid \n{else}\nThe page title is not Liquid\n\n{% else %}\n{% endif'%}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
