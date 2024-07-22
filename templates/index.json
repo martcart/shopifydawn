@@ -167,6 +167,15 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_dgFTzc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% unless page.title =='Liquid'%}\nThe page Title is not liquid\n{%  endunless %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -223,7 +232,7 @@
     "custom_liquid_ahGBKa": {
       "type": "custom-liquid",
       "custom_css": [
-        "h2 {font-size: 32px; margin:30px;}"
+        "h2 {font-size: 32px; margin: 30px;}"
       ],
       "settings": {
         "custom_liquid": "<div><h2>The Ideal Body Waist Trainer Slimming Belt by Lwanzo Sculpt <\/h2> <\/div>",
@@ -239,6 +248,7 @@
     "featured_collection",
     "collage",
     "video",
+    "custom_liquid_dgFTzc",
     "multicolumn",
     "custom_liquid_ahGBKa"
   ]
