@@ -223,7 +223,7 @@
     "custom_liquid_ahGBKa": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style={color:\"blue\";}>The Ideal Body Waist Trainer Slimming Belt by Lwanzo Sculpt <\/div>",
+        "custom_liquid": "<div>The Ideal Body Waist Trainer Slimming Belt by Lwanzo Sculpt <\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
