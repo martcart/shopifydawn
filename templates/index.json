@@ -240,6 +240,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_7Nm6PC": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'liquid'%}\n\n{% else'%}\n{% endif'%}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -250,6 +259,7 @@
     "video",
     "custom_liquid_dgFTzc",
     "multicolumn",
-    "custom_liquid_ahGBKa"
+    "custom_liquid_ahGBKa",
+    "custom_liquid_7Nm6PC"
   ]
 }
