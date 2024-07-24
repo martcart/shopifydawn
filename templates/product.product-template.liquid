@@ -1,0 +1,9 @@
+<h1>{{ product.title }}</h1>
+<p>{{ product.price | money }}</p>
+<div>{{ product.description }}</div>
+
+{% if product.title == "The Ideal Body Waist Trainer Slimming Belt by Lwanzo Sculpt" %}
+  <div class="custom-message">
+    <p>Special Offer: Get 10% off your first order!</p>
+  </div>
+{% endif %}
