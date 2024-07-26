@@ -30,8 +30,8 @@
       "type": "liquid-ref",
       "settings": {
         "liquid-ref": "this is the original text",
-        "radio-ref": "this is the new tex ref",
-        "checkboxref": false
+        "radio-checkbox": false,
+        "checkboxref": 5
       }
     }
   },
