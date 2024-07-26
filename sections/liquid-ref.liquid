@@ -1,5 +1,7 @@
 
-<h1>{{settings.liquid-ref}}</h1>
+<h1>{{section.settings["liquid-ref"]}}</h1>
+{% if section.settings.liquid-checkbox==true  %}
+
 {% schema %}
 {
     "name":"Liquid reference",
@@ -7,7 +9,7 @@
         {
             "id":"liquid-ref",
             "type":"text",
-            "label":"A reference for shopify Liquid"
+            "label":"A reference for shopify Liquid by 2024"
         },
         {
             "id":"radio-checkbox",
