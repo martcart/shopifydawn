@@ -16,6 +16,14 @@
         "padding_bottom": 28
       }
     },
+    "liquid_ref_YhqGej": {
+      "type": "liquid-ref",
+      "settings": {
+        "liquid-ref": "Liquid reference text 2025",
+        "radio-checkbox": true,
+        "checkboxref": 2034
+      }
+    },
     "rich_text_k8RQzF": {
       "type": "rich-text",
       "blocks": {
@@ -112,22 +120,14 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "liquid_ref_YhqGej": {
-      "type": "liquid-ref",
-      "settings": {
-        "liquid-ref": "Liquid reference text 2025",
-        "radio-checkbox": true,
-        "checkboxref": 203
-      }
     }
   },
   "order": [
     "main",
+    "liquid_ref_YhqGej",
     "rich_text_k8RQzF",
     "rich_text_kJWWDA",
     "rich_text_UTi464",
-    "custom_liquid_m8famB",
-    "liquid_ref_YhqGej"
+    "custom_liquid_m8famB"
   ]
 }
