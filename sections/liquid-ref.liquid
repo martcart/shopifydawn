@@ -1,6 +1,23 @@
 
 <h1>{{section.settings["liquid-ref"]}}</h1>
-{% if section.settings.liquid-checkbox==true  %}
+
+<h1>{{section.settings.liquid-ref}}</h1>
+{% if section.settings.checkboxref==true  %}
+ <h2> Checkbox is checked </h2>
+ {%  else %}
+  <h2>Checkbox is not checked </h2>
+   {% endif %}
+  {% if section.settings.id-number!=0 %}
+
+   {{ section.settings.id-number}}
+
+   {% endif %}
+<h1>Radio
+ {{ section.settings.liquid-Radio}}
+</h1>
+<h1>select</h1>
+<h1>Range</h1>
+<h1>Text Area</h1>
 
 {% schema %}
 {
@@ -17,10 +34,37 @@
             "label":"A checkbox in liquid",
         },
         {
+            "id":"id-mumber",
+            "type":"number",
+            "label":"Add a number",
+        },
+         {
             "id":"checkboxref",
             "type":"number",
             "label":"Add a number",
+        },
+        {
+            "id":"liquid-Radio",
+            "type":"radio",
+            "label":"Add a radio button",
+            "options":[
+                {
+                    "value":"option-1",
+                    "label":"option-1",
+                   
+                    
+
+                },
+                 {
+                   
+                    "value":"option-2",
+                    "label":"option-2",
+                    
+
+                }
+            ]
         }
+
 
 
     ],
