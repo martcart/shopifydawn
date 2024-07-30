@@ -10,6 +10,8 @@
   {% if section.settings.id-number!=0 %}
 
    {{ section.settings.id-number}}
+   {{ section.settings.liquid-select}}
+   {{ section.settings.liquid-textarea}}
 
    {% endif %}
 <h1>Radio
@@ -73,6 +75,32 @@
             "mx":"12,
             "step":3,
             "default":3
+        },
+          {
+            "id":"liquid-select",
+            "type":"select",
+            "label":"select",
+            "options":[
+                {
+                "value":"option1",
+                "label":"option1",
+                },
+                {
+                "value":"option2",
+                "label":"option2",
+                },
+                {
+                "value":"option3",
+                "label":"option3",
+                }
+            ]
+            "default":"option2"
+
+        }
+          {
+            "id":"liquid-textarea",
+            "type":"textarea",
+            "label":"textarea",
         }
 
 
