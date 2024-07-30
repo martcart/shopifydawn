@@ -19,9 +19,10 @@
     "liquid_ref_YhqGej": {
       "type": "liquid-ref",
       "settings": {
-        "liquid-ref": "Liquid reference text 2025",
+        "liquid-ref": "Liquid reference text 2027",
         "radio-checkbox": true,
-        "checkboxref": 2034
+        "checkboxref": 2037,
+        "liquid-Radio": "option-1"
       }
     },
     "rich_text_k8RQzF": {
