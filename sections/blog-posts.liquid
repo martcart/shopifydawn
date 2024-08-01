@@ -1,16 +1,19 @@
 
 
 {{section.settings.posts-range}}
+
+{% unless blog.articles_count==0 %}
+There is at leas one blog post
+{%endunless%}
 {% schema %}
 {
-    "name":"Neq blog post",
+    "name":"New blog post",
     "settings":[
        
         {
             "id":"posts-range",
-            "type":"radio",
+            "type":"range",
             "label":"Range",
-            "type":"Range",
             "min":3,
             "max":12,
              "step":3,
@@ -22,7 +25,7 @@
     
      "presets":[
         {
-            "name":"Blog Posts new",
+            "name":"New Blog Posts",
             "category":"Posts"
         }
      ]
