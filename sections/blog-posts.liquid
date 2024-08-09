@@ -2,6 +2,7 @@
 
 {{section.settings.posts-range}}
 {% assign blog=blogs[section.settings.blog] %}
+{% assign blog = section.settings.new-blog %}
 {% unless blog.articles_count==0 %}
 {blog.articles_count}
 There is at leas one blog post
