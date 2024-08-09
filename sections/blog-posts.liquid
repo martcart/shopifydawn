@@ -9,7 +9,13 @@ There is at least one blog post
     
     {% for article in blog.articles limit:section.settings.posts-range %}
         {{article.image}}
-    <img src= "{{article.image}} "/>
+        <a href="{{article.url}}">
+        <img srcc="{{article.image |: '500'}}"
+        </a>
+         <a href="{{article.url}}">
+        <img srcc="{{article.image |: '500'}}"
+        </a>
+    <img src= "{{article.image | img_url:width:'500x'}} "/>
         {{article.title}}
 
     {%endfor%}
