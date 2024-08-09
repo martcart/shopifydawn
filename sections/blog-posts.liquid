@@ -5,8 +5,18 @@
 {% assign blog = section.settings.new-blog %}
 {% unless blog.articles_count==0 %}
 {blog.articles_count}
-There is at leas one blog post
+There is at least one blog post
+    
+    {% for article in blog.articles limit:section.settings.posts-range %}
+        {{article.image}}
+    <img src= "{{article.image}} "/>
+        {{article.title}}
+
+    {%endfor%}
+
 {%endunless%}
+<!-- Display articles based on range -->
+
 
 
 {% schema %}
