@@ -3,6 +3,7 @@
 {{section.settings.posts-range}}
 {% assign blog=blogs[section.settings.blog] %}
 {% assign blog = section.settings.new-blog %}
+
 {% unless blog.articles_count==0 %}
 {blog.articles_count}
 There is at least one blog post
@@ -12,7 +13,7 @@ There is at least one blog post
     <div class="grid_item medium-up--one-third">
         {{article.image}}
         <a href="{{article.url}}">
-        <img srcc="{{article.image | resize: '500'}}"
+        <img src="{{article.image | resize: '500'}}"
         </a>
          <a href="{{article.url}}">
         <img srcc="{{article.image | resize: '500'}}"
@@ -43,10 +44,10 @@ There is at least one blog post
             "default":3
             
         },
-         {
+        {
             "id":"new-blog",
-            "type":blog",
-            "label":"blog"
+            "type":"blog",
+            "label":"Blog"         
             
         }
 
