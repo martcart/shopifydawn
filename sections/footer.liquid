@@ -26,6 +26,10 @@
     }
   }
 {%- endstyle -%}
+{%- if section.settings.show_payment_icons -%}
+{%- unless shop.enabled_payment_types == empty %}
+  {%- assign show_payment_icons == true -%}
+{% endif %}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
