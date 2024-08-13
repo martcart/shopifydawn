@@ -252,10 +252,13 @@
     },
     "calltoaction_8EdLXc": {
       "type": "calltoaction",
+      "custom_css": [
+
+      ],
       "settings": {
-        "text-box": "Title",
+        "text-box": "Buy Now",
         "link": "",
-        "linktext": "Click here"
+        "linktext": "Click Here To Buy"
       }
     }
   },
