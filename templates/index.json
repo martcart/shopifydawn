@@ -260,6 +260,12 @@
         "link": "shopify:\/\/pages\/services",
         "linktext": "Click Here To Buy"
       }
+    },
+    "sotial_media_LjQK7b": {
+      "type": "sotial-media",
+      "settings": {
+        "social-nav": ""
+      }
     }
   },
   "order": [
@@ -272,6 +278,7 @@
     "multicolumn",
     "custom_liquid_ahGBKa",
     "custom_liquid_7Nm6PC",
-    "calltoaction_8EdLXc"
+    "calltoaction_8EdLXc",
+    "sotial_media_LjQK7b"
   ]
 }
