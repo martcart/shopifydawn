@@ -257,7 +257,7 @@
       ],
       "settings": {
         "text-box": "Buy Now",
-        "link": "",
+        "link": "shopify:\/\/pages\/services",
         "linktext": "Click Here To Buy"
       }
     }
