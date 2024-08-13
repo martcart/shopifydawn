@@ -252,10 +252,13 @@
     },
     "calltoaction_8EdLXc": {
       "type": "calltoaction",
+      "custom_css": [
+
+      ],
       "settings": {
-        "text-box": "Title",
-        "link": "",
-        "linktext": "Click here"
+        "text-box": "Buy Now",
+        "link": "shopify:\/\/pages\/services",
+        "linktext": "Click Here To Buy"
       }
     }
   },
