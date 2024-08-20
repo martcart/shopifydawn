@@ -1,3 +1,8 @@
+{% comment  %}
+ This is the comment in liquid
+
+{% endcomment %}
+
 {{ 'social/social-icons.css' | global_asset_url | stylesheet_tag }}
 
 <div hidden>
@@ -7,12 +12,12 @@
 
 <ul class="social-media-menu">
   <li>
-    <a href="https://facebook.com/shopify"
+    <a href="block.settings.social_url"
       target="_blank"
       rel="noopener"
-      aria-label="Facebook"
+      aria-label="{{ block.settings.social-name}}"
       aria-describedby="new-window-0">
-      <span class="shopify-social-icon-facebook-circle" aria-hidden="true"></span>
+      <span class="shopify-social-icon-{{block.settings.social-name | lowercase}}-circle" aria-hidden="true"></span>
     </a>
   </li>
   <li>
