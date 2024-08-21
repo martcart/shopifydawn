@@ -266,6 +266,12 @@
       "settings": {
         "social-nav": "JOIN US ON SOCIAL NETWORK"
       }
+    },
+    "awesome_xkpTDy": {
+      "type": "awesome",
+      "settings": {
+        "button-text": "Win a prize"
+      }
     }
   },
   "order": [
@@ -279,6 +285,7 @@
     "custom_liquid_ahGBKa",
     "custom_liquid_7Nm6PC",
     "calltoaction_8EdLXc",
-    "sotial_media_LjQK7b"
+    "sotial_media_LjQK7b",
+    "awesome_xkpTDy"
   ]
 }
