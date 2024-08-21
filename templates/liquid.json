@@ -1,27 +1,15 @@
 {
-    "sections": {
-      "main": {
-        "type": "main-404"
-      }
+  "sections": {
+    "main": {
+      "type": "main-404"
     },
-    "order": [
-      "main"
-    ],
-
-    
-        "section":{
-            "main":{
-                "type":"liquid-ref",
-                "settings":{
-
-                }
-            },
-      
-            "order":["main"]
-        
-    
-    
-        }
-      
-      
-  }
+    "liquid_ref_section": {
+      "type": "liquid-ref",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "liquid_ref_section"
+  ]
+}
